@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Partner = () => {
   return (
@@ -13,6 +14,15 @@ const Partner = () => {
           className="w-full h-full object-cover"
         />
       </div>
+      <div className="container flex items-center justify-between max-lg:flex-col max-lg:justify-center gap-6 h-full">
+        <div className="heading5 max-lg:text-center text-white">
+          Looking for a first-class business consultant?
+        </div>
+        <Link href="/" className="button-main rounded-full hover:bg-black hover:text-white bg-white text-button px-9 py-3">
+          Get a Quote
+        </Link>
+      </div>
+      
     </div>
   );
 };
