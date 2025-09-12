@@ -40,7 +40,7 @@
                       @csrf
                       <div class="form-group mb-3">
                         <label for="emailaddress" class="form-label">Email address</label>
-                        <input class="form-control" type="email" id="email" name="email" required="" placeholder="Enter your email">
+                        <input class="form-control" type="email" id="emailaddress" name="emailaddress" required="" placeholder="Enter your email">
                       </div>
                 
                       <div class="form-group mb-3">
@@ -70,7 +70,7 @@
                     </form>
     
                     <div class="text-center text-muted mb-4">
-                      <p class="mb-0">Don't have an account ?<a class='text-primary ms-2 fw-medium' href='{{ route('register') }}'>Sing up</a></p>
+                      <p class="mb-0">Don't have an account ?<a class='text-primary ms-2 fw-medium' href='{{ route('register') }}'>Sign up</a></p>
                     </div>
 
                   </div>
